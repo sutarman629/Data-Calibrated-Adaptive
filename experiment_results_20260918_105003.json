@@ -1,0 +1,567 @@
+{
+  "metadata": {
+    "timestamp": "2026-09-18T02:28:52.195115"
+  },
+  "datasets": {
+    "MIMIC_IV": {
+      "info": "MIMIC-IV ED (Beth Israel Deaconess)",
+      "ood_type": "Normal",
+      "results": {
+        "NVI": {
+          "Mean_Cost": 466.6,
+          "SD_Cost": 114.06360798548617,
+          "CVaR95": 744.0,
+          "Mean_Queue": 1.4600694444444444,
+          "Peak_Queue": 4.6,
+          "Final_Queue": 1.7,
+          "Mean_Overflow": 0.6666666666666666,
+          "Utilization_pct": 1.5277777777777777
+        },
+        "FRVI": {
+          "Mean_Cost": 448.5,
+          "SD_Cost": 105.28778023430196,
+          "CVaR95": 744.0,
+          "Mean_Queue": 1.3993055555555556,
+          "Peak_Queue": 4.5,
+          "Final_Queue": 1.7,
+          "Mean_Overflow": 0.5,
+          "Utilization_pct": 1.5046296296296295
+        },
+        "CV-FRVI": {
+          "Mean_Cost": 448.5,
+          "SD_Cost": 105.28778023430196,
+          "CVaR95": 744.0,
+          "Mean_Queue": 1.3993055555555556,
+          "Peak_Queue": 4.5,
+          "Final_Queue": 1.7,
+          "Mean_Overflow": 0.5,
+          "Utilization_pct": 1.5046296296296295
+        },
+        "Entropic-DRO": {
+          "Mean_Cost": 469.3333333333333,
+          "SD_Cost": 117.27981734107345,
+          "CVaR95": 744.0,
+          "Mean_Queue": 1.4579861111111112,
+          "Peak_Queue": 4.533333333333333,
+          "Final_Queue": 1.7333333333333334,
+          "Mean_Overflow": 0.5666666666666667,
+          "Utilization_pct": 1.5046296296296295
+        },
+        "DC-AWRVI": {
+          "Mean_Cost": 448.5,
+          "SD_Cost": 105.28778023430196,
+          "CVaR95": 744.0,
+          "Mean_Queue": 1.3993055555555556,
+          "Peak_Queue": 4.5,
+          "Final_Queue": 1.7,
+          "Mean_Overflow": 0.5,
+          "Utilization_pct": 1.5046296296296295
+        }
+      }
+    },
+    "NHAMCS_2019": {
+      "info": "NHAMCS 2019 Emergency Department",
+      "ood_type": "Normal",
+      "results": {
+        "NVI": {
+          "Mean_Cost": 362.1666666666667,
+          "SD_Cost": 97.77050793681201,
+          "CVaR95": 659.0,
+          "Mean_Queue": 1.39375,
+          "Peak_Queue": 4.766666666666667,
+          "Final_Queue": 2.0,
+          "Mean_Overflow": 0.6666666666666666,
+          "Utilization_pct": 1.1458333333333333
+        },
+        "FRVI": {
+          "Mean_Cost": 370.76666666666665,
+          "SD_Cost": 102.35157817813831,
+          "CVaR95": 616.0,
+          "Mean_Queue": 1.414236111111111,
+          "Peak_Queue": 4.766666666666667,
+          "Final_Queue": 1.8333333333333333,
+          "Mean_Overflow": 0.43333333333333335,
+          "Utilization_pct": 1.2037037037037037
+        },
+        "CV-FRVI": {
+          "Mean_Cost": 370.76666666666665,
+          "SD_Cost": 102.35157817813831,
+          "CVaR95": 616.0,
+          "Mean_Queue": 1.414236111111111,
+          "Peak_Queue": 4.766666666666667,
+          "Final_Queue": 1.8333333333333333,
+          "Mean_Overflow": 0.43333333333333335,
+          "Utilization_pct": 1.2037037037037037
+        },
+        "Entropic-DRO": {
+          "Mean_Cost": 360.46666666666664,
+          "SD_Cost": 94.85910019017095,
+          "CVaR95": 616.0,
+          "Mean_Queue": 1.3815972222222221,
+          "Peak_Queue": 4.7,
+          "Final_Queue": 1.8666666666666667,
+          "Mean_Overflow": 0.43333333333333335,
+          "Utilization_pct": 1.2037037037037037
+        },
+        "DC-AWRVI": {
+          "Mean_Cost": 370.76666666666665,
+          "SD_Cost": 102.35157817813831,
+          "CVaR95": 616.0,
+          "Mean_Queue": 1.414236111111111,
+          "Peak_Queue": 4.766666666666667,
+          "Final_Queue": 1.8333333333333333,
+          "Mean_Overflow": 0.43333333333333335,
+          "Utilization_pct": 1.2037037037037037
+        }
+      }
+    },
+    "NHAMCS_2021": {
+      "info": "NHAMCS 2021 Emergency Department",
+      "ood_type": "Normal",
+      "results": {
+        "NVI": {
+          "Mean_Cost": 356.06666666666666,
+          "SD_Cost": 90.58363845394794,
+          "CVaR95": 644.0,
+          "Mean_Queue": 1.3322916666666667,
+          "Peak_Queue": 4.433333333333334,
+          "Final_Queue": 1.9333333333333333,
+          "Mean_Overflow": 0.4666666666666667,
+          "Utilization_pct": 1.9675925925925926
+        },
+        "FRVI": {
+          "Mean_Cost": 363.8333333333333,
+          "SD_Cost": 92.06232792093746,
+          "CVaR95": 574.0,
+          "Mean_Queue": 1.3489583333333333,
+          "Peak_Queue": 4.566666666666666,
+          "Final_Queue": 2.3666666666666667,
+          "Mean_Overflow": 0.3333333333333333,
+          "Utilization_pct": 1.1921296296296295
+        },
+        "CV-FRVI": {
+          "Mean_Cost": 363.8333333333333,
+          "SD_Cost": 92.06232792093746,
+          "CVaR95": 574.0,
+          "Mean_Queue": 1.3489583333333333,
+          "Peak_Queue": 4.566666666666666,
+          "Final_Queue": 2.3666666666666667,
+          "Mean_Overflow": 0.3333333333333333,
+          "Utilization_pct": 1.1921296296296295
+        },
+        "Entropic-DRO": {
+          "Mean_Cost": 359.5,
+          "SD_Cost": 86.91327094677007,
+          "CVaR95": 574.0,
+          "Mean_Queue": 1.335763888888889,
+          "Peak_Queue": 4.566666666666666,
+          "Final_Queue": 2.4,
+          "Mean_Overflow": 0.3,
+          "Utilization_pct": 1.1921296296296295
+        },
+        "DC-AWRVI": {
+          "Mean_Cost": 363.8333333333333,
+          "SD_Cost": 92.06232792093746,
+          "CVaR95": 574.0,
+          "Mean_Queue": 1.3489583333333333,
+          "Peak_Queue": 4.566666666666666,
+          "Final_Queue": 2.3666666666666667,
+          "Mean_Overflow": 0.3333333333333333,
+          "Utilization_pct": 1.1921296296296295
+        }
+      }
+    },
+    "Synthetic_Nominal": {
+      "info": "Synthetic (Nominal)",
+      "ood_type": "Normal",
+      "results": {
+        "NVI": {
+          "Mean_Cost": 983.0333333333333,
+          "SD_Cost": 203.47259984796207,
+          "CVaR95": 1336.0,
+          "Mean_Queue": 3.747916666666667,
+          "Peak_Queue": 7.866666666666666,
+          "Final_Queue": 4.033333333333333,
+          "Mean_Overflow": 10.233333333333333,
+          "Utilization_pct": 2.696759259259259
+        },
+        "FRVI": {
+          "Mean_Cost": 935.1666666666666,
+          "SD_Cost": 189.93561774687993,
+          "CVaR95": 1397.0,
+          "Mean_Queue": 3.401736111111111,
+          "Peak_Queue": 7.333333333333333,
+          "Final_Queue": 3.433333333333333,
+          "Mean_Overflow": 9.533333333333333,
+          "Utilization_pct": 2.627314814814815
+        },
+        "CV-FRVI": {
+          "Mean_Cost": 935.1666666666666,
+          "SD_Cost": 189.93561774687993,
+          "CVaR95": 1397.0,
+          "Mean_Queue": 3.401736111111111,
+          "Peak_Queue": 7.333333333333333,
+          "Final_Queue": 3.433333333333333,
+          "Mean_Overflow": 9.533333333333333,
+          "Utilization_pct": 2.627314814814815
+        },
+        "Entropic-DRO": {
+          "Mean_Cost": 926.9666666666667,
+          "SD_Cost": 185.61061092752453,
+          "CVaR95": 1334.0,
+          "Mean_Queue": 3.402083333333333,
+          "Peak_Queue": 7.3,
+          "Final_Queue": 3.6666666666666665,
+          "Mean_Overflow": 9.666666666666666,
+          "Utilization_pct": 2.627314814814815
+        },
+        "DC-AWRVI": {
+          "Mean_Cost": 935.1666666666666,
+          "SD_Cost": 189.93561774687993,
+          "CVaR95": 1397.0,
+          "Mean_Queue": 3.401736111111111,
+          "Peak_Queue": 7.333333333333333,
+          "Final_Queue": 3.433333333333333,
+          "Mean_Overflow": 9.533333333333333,
+          "Utilization_pct": 2.627314814814815
+        }
+      }
+    },
+    "Synthetic_Diurnal": {
+      "info": "Synthetic (Diurnal)",
+      "ood_type": "Normal",
+      "results": {
+        "NVI": {
+          "Mean_Cost": 640.2666666666667,
+          "SD_Cost": 158.92659381683805,
+          "CVaR95": 1110.0,
+          "Mean_Queue": 2.3868055555555556,
+          "Peak_Queue": 6.633333333333334,
+          "Final_Queue": 4.033333333333333,
+          "Mean_Overflow": 3.7333333333333334,
+          "Utilization_pct": 2.685185185185185
+        },
+        "FRVI": {
+          "Mean_Cost": 655.5333333333333,
+          "SD_Cost": 129.09989241754704,
+          "CVaR95": 938.0,
+          "Mean_Queue": 2.3652777777777776,
+          "Peak_Queue": 6.466666666666667,
+          "Final_Queue": 4.033333333333333,
+          "Mean_Overflow": 5.5,
+          "Utilization_pct": 2.175925925925926
+        },
+        "CV-FRVI": {
+          "Mean_Cost": 655.5333333333333,
+          "SD_Cost": 129.09989241754704,
+          "CVaR95": 938.0,
+          "Mean_Queue": 2.3652777777777776,
+          "Peak_Queue": 6.466666666666667,
+          "Final_Queue": 4.033333333333333,
+          "Mean_Overflow": 5.5,
+          "Utilization_pct": 2.175925925925926
+        },
+        "Entropic-DRO": {
+          "Mean_Cost": 660.3666666666667,
+          "SD_Cost": 133.03645699164153,
+          "CVaR95": 902.0,
+          "Mean_Queue": 2.379861111111111,
+          "Peak_Queue": 6.666666666666667,
+          "Final_Queue": 4.166666666666667,
+          "Mean_Overflow": 5.333333333333333,
+          "Utilization_pct": 2.175925925925926
+        },
+        "DC-AWRVI": {
+          "Mean_Cost": 655.5333333333333,
+          "SD_Cost": 129.09989241754704,
+          "CVaR95": 938.0,
+          "Mean_Queue": 2.3652777777777776,
+          "Peak_Queue": 6.466666666666667,
+          "Final_Queue": 4.033333333333333,
+          "Mean_Overflow": 5.5,
+          "Utilization_pct": 2.175925925925926
+        }
+      }
+    },
+    "Synthetic_Surge": {
+      "info": "Synthetic (Surge)",
+      "ood_type": "Normal",
+      "results": {
+        "NVI": {
+          "Mean_Cost": 761.1,
+          "SD_Cost": 169.81545866027628,
+          "CVaR95": 1047.0,
+          "Mean_Queue": 2.823263888888889,
+          "Peak_Queue": 6.733333333333333,
+          "Final_Queue": 3.4,
+          "Mean_Overflow": 4.2,
+          "Utilization_pct": 2.569444444444444
+        },
+        "FRVI": {
+          "Mean_Cost": 717.0333333333333,
+          "SD_Cost": 149.7218495150999,
+          "CVaR95": 1061.0,
+          "Mean_Queue": 2.6059027777777777,
+          "Peak_Queue": 6.3,
+          "Final_Queue": 2.7666666666666666,
+          "Mean_Overflow": 4.7,
+          "Utilization_pct": 2.060185185185185
+        },
+        "CV-FRVI": {
+          "Mean_Cost": 717.0333333333333,
+          "SD_Cost": 149.7218495150999,
+          "CVaR95": 1061.0,
+          "Mean_Queue": 2.6059027777777777,
+          "Peak_Queue": 6.3,
+          "Final_Queue": 2.7666666666666666,
+          "Mean_Overflow": 4.7,
+          "Utilization_pct": 2.060185185185185
+        },
+        "Entropic-DRO": {
+          "Mean_Cost": 730.1666666666666,
+          "SD_Cost": 163.94736621516338,
+          "CVaR95": 1141.0,
+          "Mean_Queue": 2.6381944444444443,
+          "Peak_Queue": 6.4,
+          "Final_Queue": 2.566666666666667,
+          "Mean_Overflow": 4.766666666666667,
+          "Utilization_pct": 2.060185185185185
+        },
+        "DC-AWRVI": {
+          "Mean_Cost": 717.0333333333333,
+          "SD_Cost": 149.7218495150999,
+          "CVaR95": 1061.0,
+          "Mean_Queue": 2.6059027777777777,
+          "Peak_Queue": 6.3,
+          "Final_Queue": 2.7666666666666666,
+          "Mean_Overflow": 4.7,
+          "Utilization_pct": 2.060185185185185
+        }
+      }
+    },
+    "Synthetic_Controlled_Surge": {
+      "info": "Synthetic (Controlled_Surge)",
+      "ood_type": "Normal",
+      "results": {
+        "NVI": {
+          "Mean_Cost": 631.4666666666667,
+          "SD_Cost": 156.84827771519272,
+          "CVaR95": 1034.0,
+          "Mean_Queue": 2.330208333333333,
+          "Peak_Queue": 6.033333333333333,
+          "Final_Queue": 2.966666666666667,
+          "Mean_Overflow": 2.466666666666667,
+          "Utilization_pct": 2.2222222222222223
+        },
+        "FRVI": {
+          "Mean_Cost": 639.6,
+          "SD_Cost": 167.71078279784714,
+          "CVaR95": 1026.0,
+          "Mean_Queue": 2.3194444444444446,
+          "Peak_Queue": 6.166666666666667,
+          "Final_Queue": 2.8,
+          "Mean_Overflow": 2.3,
+          "Utilization_pct": 2.2453703703703707
+        },
+        "CV-FRVI": {
+          "Mean_Cost": 639.6,
+          "SD_Cost": 167.71078279784714,
+          "CVaR95": 1026.0,
+          "Mean_Queue": 2.3194444444444446,
+          "Peak_Queue": 6.166666666666667,
+          "Final_Queue": 2.8,
+          "Mean_Overflow": 2.3,
+          "Utilization_pct": 2.2453703703703707
+        },
+        "Entropic-DRO": {
+          "Mean_Cost": 628.6666666666666,
+          "SD_Cost": 175.7265552562339,
+          "CVaR95": 1108.0,
+          "Mean_Queue": 2.281597222222222,
+          "Peak_Queue": 6.066666666666666,
+          "Final_Queue": 2.966666666666667,
+          "Mean_Overflow": 2.3,
+          "Utilization_pct": 2.2453703703703707
+        },
+        "DC-AWRVI": {
+          "Mean_Cost": 639.6,
+          "SD_Cost": 167.71078279784714,
+          "CVaR95": 1026.0,
+          "Mean_Queue": 2.3194444444444446,
+          "Peak_Queue": 6.166666666666667,
+          "Final_Queue": 2.8,
+          "Mean_Overflow": 2.3,
+          "Utilization_pct": 2.2453703703703707
+        }
+      }
+    },
+    "Synthetic_MCI": {
+      "info": "Synthetic (Mass Casualty Incident)",
+      "ood_type": "Extreme Surge + Triage Shift",
+      "results": {
+        "NVI": {
+          "Mean_Cost": 1364.3333333333333,
+          "SD_Cost": 287.3813184989975,
+          "CVaR95": 1939.0,
+          "Mean_Queue": 3.8315972222222223,
+          "Peak_Queue": 8.1,
+          "Final_Queue": 4.266666666666667,
+          "Mean_Overflow": 6.7,
+          "Utilization_pct": 3.1365740740740744
+        },
+        "FRVI": {
+          "Mean_Cost": 1322.7333333333333,
+          "SD_Cost": 294.08603427493046,
+          "CVaR95": 1906.0,
+          "Mean_Queue": 3.501736111111111,
+          "Peak_Queue": 7.466666666666667,
+          "Final_Queue": 3.966666666666667,
+          "Mean_Overflow": 9.5,
+          "Utilization_pct": 3.0555555555555554
+        },
+        "CV-FRVI": {
+          "Mean_Cost": 1322.7333333333333,
+          "SD_Cost": 294.08603427493046,
+          "CVaR95": 1906.0,
+          "Mean_Queue": 3.501736111111111,
+          "Peak_Queue": 7.466666666666667,
+          "Final_Queue": 3.966666666666667,
+          "Mean_Overflow": 9.5,
+          "Utilization_pct": 3.0555555555555554
+        },
+        "Entropic-DRO": {
+          "Mean_Cost": 1356.3333333333333,
+          "SD_Cost": 284.85813233178993,
+          "CVaR95": 1939.0,
+          "Mean_Queue": 3.798611111111111,
+          "Peak_Queue": 8.1,
+          "Final_Queue": 4.366666666666666,
+          "Mean_Overflow": 6.8,
+          "Utilization_pct": 3.1365740740740744
+        },
+        "DC-AWRVI": {
+          "Mean_Cost": 1322.7333333333333,
+          "SD_Cost": 294.08603427493046,
+          "CVaR95": 1906.0,
+          "Mean_Queue": 3.501736111111111,
+          "Peak_Queue": 7.466666666666667,
+          "Final_Queue": 3.966666666666667,
+          "Mean_Overflow": 9.5,
+          "Utilization_pct": 3.0555555555555554
+        }
+      }
+    },
+    "Synthetic_HeavyTail": {
+      "info": "Synthetic (Log-Normal LoS)",
+      "ood_type": "Model Misspecification (Heavy-Tailed Service)",
+      "results": {
+        "NVI": {
+          "Mean_Cost": 597.0666666666667,
+          "SD_Cost": 127.44068772918989,
+          "CVaR95": 937.0,
+          "Mean_Queue": 2.176736111111111,
+          "Peak_Queue": 5.9,
+          "Final_Queue": 1.9666666666666666,
+          "Mean_Overflow": 3.6333333333333333,
+          "Utilization_pct": 0.0
+        },
+        "FRVI": {
+          "Mean_Cost": 597.5333333333333,
+          "SD_Cost": 113.14289882955781,
+          "CVaR95": 897.0,
+          "Mean_Queue": 2.134027777777778,
+          "Peak_Queue": 5.8,
+          "Final_Queue": 2.2,
+          "Mean_Overflow": 3.9,
+          "Utilization_pct": 0.0
+        },
+        "CV-FRVI": {
+          "Mean_Cost": 597.5333333333333,
+          "SD_Cost": 113.14289882955781,
+          "CVaR95": 897.0,
+          "Mean_Queue": 2.134027777777778,
+          "Peak_Queue": 5.8,
+          "Final_Queue": 2.2,
+          "Mean_Overflow": 3.9,
+          "Utilization_pct": 0.0
+        },
+        "Entropic-DRO": {
+          "Mean_Cost": 597.2666666666667,
+          "SD_Cost": 112.86538687992682,
+          "CVaR95": 897.0,
+          "Mean_Queue": 2.134027777777778,
+          "Peak_Queue": 5.8,
+          "Final_Queue": 2.2,
+          "Mean_Overflow": 3.9,
+          "Utilization_pct": 0.0
+        },
+        "DC-AWRVI": {
+          "Mean_Cost": 597.5333333333333,
+          "SD_Cost": 113.14289882955781,
+          "CVaR95": 897.0,
+          "Mean_Queue": 2.134027777777778,
+          "Peak_Queue": 5.8,
+          "Final_Queue": 2.2,
+          "Mean_Overflow": 3.9,
+          "Utilization_pct": 0.0
+        }
+      }
+    },
+    "Synthetic_CapacityDrop": {
+      "info": "Synthetic (Capacity Degradation)",
+      "ood_type": "Sudden Capacity Loss (D=3 -> D=1)",
+      "results": {
+        "NVI": {
+          "Mean_Cost": 1191.2333333333333,
+          "SD_Cost": 189.40198579271078,
+          "CVaR95": 1591.0,
+          "Mean_Queue": 4.501736111111111,
+          "Peak_Queue": 8.633333333333333,
+          "Final_Queue": 4.566666666666666,
+          "Mean_Overflow": 19.233333333333334,
+          "Utilization_pct": 2.314814814814815
+        },
+        "FRVI": {
+          "Mean_Cost": 1192.6666666666667,
+          "SD_Cost": 292.3091210041558,
+          "CVaR95": 2464.0,
+          "Mean_Queue": 4.292013888888889,
+          "Peak_Queue": 8.533333333333333,
+          "Final_Queue": 4.2,
+          "Mean_Overflow": 17.6,
+          "Utilization_pct": 2.4652777777777777
+        },
+        "CV-FRVI": {
+          "Mean_Cost": 1192.6666666666667,
+          "SD_Cost": 292.3091210041558,
+          "CVaR95": 2464.0,
+          "Mean_Queue": 4.292013888888889,
+          "Peak_Queue": 8.533333333333333,
+          "Final_Queue": 4.2,
+          "Mean_Overflow": 17.6,
+          "Utilization_pct": 2.4652777777777777
+        },
+        "Entropic-DRO": {
+          "Mean_Cost": 1142.3333333333333,
+          "SD_Cost": 198.78637333132826,
+          "CVaR95": 1592.0,
+          "Mean_Queue": 4.157638888888889,
+          "Peak_Queue": 8.3,
+          "Final_Queue": 4.1,
+          "Mean_Overflow": 17.533333333333335,
+          "Utilization_pct": 2.4537037037037037
+        },
+        "DC-AWRVI": {
+          "Mean_Cost": 1192.6666666666667,
+          "SD_Cost": 292.3091210041558,
+          "CVaR95": 2464.0,
+          "Mean_Queue": 4.292013888888889,
+          "Peak_Queue": 8.533333333333333,
+          "Final_Queue": 4.2,
+          "Mean_Overflow": 17.6,
+          "Utilization_pct": 2.4652777777777777
+        }
+      }
+    }
+  }
+}
